@@ -20,7 +20,7 @@ function App() {
   const starknetProvider = new RpcProvider({
     nodeUrl: isProduction
       ? import.meta.env.VITE_STARKNET_JSON_RPC_URL_MAINNET
-      : import.meta.env.VITE_STARKNET_JSON_RPC_URL_SEPOLIA,
+      : "https://starknet-sepolia.public.blastapi.io/rpc/v0_8",
   });
 
   const { provider: web3authProvider } = useWeb3Auth();
@@ -165,9 +165,7 @@ function App() {
           href="https://www.starknet.io"
           target="_blank"
           rel="noreferrer"
-          style={{
-            color: "white",
-          }}
+          style={{ color: "white" }}
         >
           StarkNet
         </a>{" "}
