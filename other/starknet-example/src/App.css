@@ -8,9 +8,9 @@
 body {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
     sans-serif;
-  background: #0a0a0a;
+  background: #131927;
   min-height: 100vh;
-  color: #e0e0e0;
+  color: #e8eaed;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -34,13 +34,13 @@ body {
 }
 
 .title a {
-  color: #3b82f6;
+  color: #60a5fa;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 .title a:hover {
-  color: #60a5fa;
+  color: #93c5fd;
 }
 
 .grid {
@@ -56,13 +56,13 @@ body {
 }
 
 .card {
-  background: #1a1a1a;
-  border: 1px solid #333;
+  background: #1e293b;
+  border: 1px solid #334155;
   border-radius: 8px;
   padding: 1rem;
   font-size: 0.9rem;
   font-weight: 500;
-  color: #e0e0e0;
+  color: #e8eaed;
   cursor: pointer;
   transition: all 0.3s ease;
   text-align: center;
@@ -74,10 +74,10 @@ body {
 }
 
 .card:hover {
-  background: #252525;
-  border-color: #3b82f6;
+  background: #334155;
+  border-color: #60a5fa;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+  box-shadow: 0 4px 12px rgba(96, 165, 250, 0.2);
 }
 
 .card:active {
@@ -86,9 +86,9 @@ body {
 
 /* Funding Notice */
 .funding-notice {
-  background: #1a1a1a;
-  border: 1px solid #dc2626;
-  color: #e0e0e0;
+  background: #1e293b;
+  border: 1px solid #ef4444;
+  color: #e8eaed;
   padding: 1rem;
   border-radius: 8px;
   margin-bottom: 1.5rem;
@@ -110,8 +110,8 @@ body {
 
 /* Console Styling */
 #console {
-  background: #0f0f0f;
-  border: 1px solid #333;
+  background: #0f172a;
+  border: 1px solid #334155;
   border-radius: 8px;
   padding: 1rem;
   margin-top: 1.5rem;
@@ -131,7 +131,7 @@ body {
 
 /* Loading and Error States */
 .loading {
-  background: #1e40af;
+  background: #1d4ed8;
   color: white;
   padding: 0.5rem;
   border-radius: 4px;
@@ -160,7 +160,7 @@ body {
 }
 
 .footer a {
-  color: #6b7280;
+  color: #64748b;
   text-decoration: none;
   font-weight: 500;
   font-size: 0.9rem;
@@ -168,7 +168,7 @@ body {
 }
 
 .footer a:hover {
-  color: #9ca3af;
+  color: #94a3b8;
 }
 
 /* Responsive Design */
@@ -200,8 +200,8 @@ body {
 
 .card:disabled:hover {
   transform: none;
-  background: #1a1a1a;
-  border-color: #333;
+  background: #1e293b;
+  border-color: #334155;
   box-shadow: none;
 }
 
@@ -211,15 +211,15 @@ body {
 }
 
 #console::-webkit-scrollbar-track {
-  background: #1a1a1a;
+  background: #1e293b;
   border-radius: 3px;
 }
 
 #console::-webkit-scrollbar-thumb {
-  background: #333;
+  background: #334155;
   border-radius: 3px;
 }
 
 #console::-webkit-scrollbar-thumb:hover {
-  background: #4b5563;
+  background: #475569;
 }

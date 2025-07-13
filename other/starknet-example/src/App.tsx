@@ -173,9 +173,11 @@ function App() {
       </h1>
 
       <div className="grid">{isConnected ? loggedInView : unloggedInView}</div>
-      <div id="console" style={{ whiteSpace: "pre-line" }}>
-        <p style={{ whiteSpace: "pre-line" }}></p>
-      </div>
+      {isConnected && (
+        <div id="console" style={{ whiteSpace: "pre-line" }}>
+          <p style={{ whiteSpace: "pre-line" }}></p>
+        </div>
+      )}
       <footer className="footer">
         <a
           href="https://github.com/Web3Auth/web3auth-examples/tree/main/other/starknet-example"
