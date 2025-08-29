@@ -18,7 +18,7 @@ function App() {
   const loginWithCognito = async () => {
     await connectTo(WALLET_CONNECTORS.AUTH, {
       authConnection: AUTH_CONNECTION.CUSTOM,
-      authConnectionId: "w3a-cognito-demo",
+      authConnectionId: "w3a-cognito-demo-new",
       extraLoginOptions: {
         client_id: "2upuksfh6n0n5c0nciirc1bdrv",
         domain: "https://shahbaz-web3auth.auth.ap-south-1.amazoncognito.com",
